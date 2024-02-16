@@ -1,0 +1,121 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  
+
+
+.third-line{
+    width: 150px;
+}
+
+.empty-line{
+    margin:20px;
+
+}
+.hr-empty{
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right:20px;
+}
+
+@media (min-width:749px) {
+    .empty-line{
+        display: none;
+    }
+  }
+
+
+
+
+.main-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.search-container {
+    background-color: #f1f5f9;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 5px;
+    margin: 10px;
+    width: 400px;
+    border: 1px solid rgb(54, 54, 199);
+  }
+  .search-box{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    padding-left: 20px;
+    border: none;
+  }
+  .search-box:focus{
+    border: none;
+    outline:none;
+  }
+  .search-image {
+    height: 100%;
+    width: 30px;
+  }
+  .search-button {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+  }
+  .insta-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .insta-heading{
+    font-size: 20px;
+  }
+  .insta-hr-line{
+    height: 2px;
+    width: 200px;
+    border: 1px solid black;
+    color:black;
+    background-color: rgba(31, 29, 29, 0.821);
+    margin-left: 5px;
+    margin-right: 5px;
+
+
+  }
+  @media (max-width:749px) {
+    .main-heading{
+        display: none;
+    }
+  }
+
+  .edition-head{
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    font-style: bold;
+    font-family: sans-serif;
+
+  }
+  .edition-image{
+    background-color: transparent;
+  }
+  .quotes{
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    margin: 30px;
+  }
